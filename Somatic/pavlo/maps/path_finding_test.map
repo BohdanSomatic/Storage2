@@ -1,0 +1,570 @@
+<?xml version="1.0"?>
+<timestamp>1607429716</timestamp>
+<robot>
+	<point_clouds />
+	<link name="9c84ce1f-2124-49be-ad7d-22973942c4ef" label="root" type="FloorRoot">
+		<inertial>
+			<origin xyz="0 0 0" rpy="-0 0 -0" />
+			<mass value="1" />
+			<inertia ixx="1" ixy="1" ixz="1" iyy="1" iyz="1" izz="1" />
+		</inertial>
+		<visual>
+			<origin xyz="0 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="300.000000 300.000000" />
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="300.000000 300.000000" />
+			</geometry>
+		</collision>
+	</link>
+	<joint name="16422363-9c4e-4081-b3be-8e2d9f40ef74" label="FixedWall" type="fixed">
+		<origin xyz="-0.00366917252540588 -1.00467228889465 0" rpy="1.57079640294118 0.0036630053530756 1.57079632651597" />
+		<axis xyz="0 0 1" />
+		<parent link="9c84ce1f-2124-49be-ad7d-22973942c4ef" />
+		<child link="19f9bd78-7114-4e3f-8b1a-03cd49fd2fdc" />
+		<limits effort="100000000" velocity="100000000" lower="0" upper="0" />
+	</joint>
+	<link name="19f9bd78-7114-4e3f-8b1a-03cd49fd2fdc" label="Wall" type="Wall">
+		<inertial>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<mass value="1" />
+			<inertia ixx="1" ixy="1" ixz="1" iyy="1" iyz="1" izz="1" />
+		</inertial>
+		<visual>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 2.003365" />
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 2.003365" />
+			</geometry>
+		</collision>
+	</link>
+	<joint name="90567e46-8ffe-47ce-9f51-281911faf91b" label="FixedWall" type="fixed">
+		<origin xyz="1.49609243869781 -0.505668997764587 0" rpy="1.5707963523883 0.782627991069378 1.57079630874783" />
+		<axis xyz="0 0 1" />
+		<parent link="9c84ce1f-2124-49be-ad7d-22973942c4ef" />
+		<child link="c15b6b9a-fe4d-42b9-bdf6-b3fa5b817d54" />
+		<limits effort="100000000" velocity="100000000" lower="0" upper="0" />
+	</joint>
+	<link name="c15b6b9a-fe4d-42b9-bdf6-b3fa5b817d54" label="Wall" type="Wall">
+		<inertial>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<mass value="1" />
+			<inertia ixx="1" ixy="1" ixz="1" iyy="1" iyz="1" izz="1" />
+		</inertial>
+		<visual>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 1.404913" />
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 1.404913" />
+			</geometry>
+		</collision>
+	</link>
+	<joint name="e4564b6c-0965-4cc6-8c15-f36d4788958f" label="FixedWall" type="fixed">
+		<origin xyz="1.99730324745178 0.4953992664814 0" rpy="1.57078011575664 1.56461779676551 1.57081253752211" />
+		<axis xyz="0 0 1" />
+		<parent link="9c84ce1f-2124-49be-ad7d-22973942c4ef" />
+		<child link="a2b75614-6b47-42ef-b673-a6ab8d1322b7" />
+		<limits effort="100000000" velocity="100000000" lower="0" upper="0" />
+	</joint>
+	<link name="a2b75614-6b47-42ef-b673-a6ab8d1322b7" label="Wall" type="Wall">
+		<inertial>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<mass value="1" />
+			<inertia ixx="1" ixy="1" ixz="1" iyy="1" iyz="1" izz="1" />
+		</inertial>
+		<visual>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 1.011488" />
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 1.011488" />
+			</geometry>
+		</collision>
+	</link>
+	<joint name="e50afd2d-8c7e-4d0a-8acc-44e038d6ecf8" label="FixedWall" type="fixed">
+		<origin xyz="2.50123977661133 0.998036086559296 0" rpy="1.57079623348367 -0.00618470729675764 1.57079632621779" />
+		<axis xyz="0 0 1" />
+		<parent link="9c84ce1f-2124-49be-ad7d-22973942c4ef" />
+		<child link="a7c25d93-ba0d-4e09-a882-3a90fada507b" />
+		<limits effort="100000000" velocity="100000000" lower="0" upper="0" />
+	</joint>
+	<link name="a7c25d93-ba0d-4e09-a882-3a90fada507b" label="Wall" type="Wall">
+		<inertial>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<mass value="1" />
+			<inertia ixx="1" ixy="1" ixz="1" iyy="1" iyz="1" izz="1" />
+		</inertial>
+		<visual>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 1.001643" />
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 1.001643" />
+			</geometry>
+		</collision>
+	</link>
+	<joint name="2b53c733-bbb4-4d44-8ae2-18cd07a20414" label="FixedWall" type="fixed">
+		<origin xyz="3.49004697799683 0.510611951351166 0" rpy="1.57079622831541 -0.781624649590144 1.57079625742264" />
+		<axis xyz="0 0 1" />
+		<parent link="9c84ce1f-2124-49be-ad7d-22973942c4ef" />
+		<child link="b197b203-ab44-4405-98ac-5f8724574d62" />
+		<limits effort="100000000" velocity="100000000" lower="0" upper="0" />
+	</joint>
+	<link name="b197b203-ab44-4405-98ac-5f8724574d62" label="Wall" type="Wall">
+		<inertial>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<mass value="1" />
+			<inertia ixx="1" ixy="1" ixz="1" iyy="1" iyz="1" izz="1" />
+		</inertial>
+		<visual>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 1.375081" />
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 1.375081" />
+			</geometry>
+		</collision>
+	</link>
+	<joint name="e57e38fa-f9b6-4dc4-b342-443eb2d6f197" label="FixedWall" type="fixed">
+		<origin xyz="4.48805332183838 0.0189470052719116 0" rpy="1.57079633973155 -0.0143874931546142 1.57079632698102" />
+		<axis xyz="0 0 1" />
+		<parent link="9c84ce1f-2124-49be-ad7d-22973942c4ef" />
+		<child link="2c207f4a-19fe-4290-a1e6-dc8ee056ddf1" />
+		<limits effort="100000000" velocity="100000000" lower="0" upper="0" />
+	</joint>
+	<link name="2c207f4a-19fe-4290-a1e6-dc8ee056ddf1" label="Wall" type="Wall">
+		<inertial>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<mass value="1" />
+			<inertia ixx="1" ixy="1" ixz="1" iyy="1" iyz="1" izz="1" />
+		</inertial>
+		<visual>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 1.020127" />
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 1.020127" />
+			</geometry>
+		</collision>
+	</link>
+	<joint name="55f37b27-f5c0-411e-b4b3-09c3e08dada9" label="FixedWall" type="fixed">
+		<origin xyz="4.9980640411377 2.01129031181335 0" rpy="1.94397873140736 1.57079642067959 1.19761393380259" />
+		<axis xyz="0 0 1" />
+		<parent link="9c84ce1f-2124-49be-ad7d-22973942c4ef" />
+		<child link="b613afe7-9a1b-4653-8590-be632e1fc832" />
+		<limits effort="100000000" velocity="100000000" lower="0" upper="0" />
+	</joint>
+	<link name="b613afe7-9a1b-4653-8590-be632e1fc832" label="Wall" type="Wall">
+		<inertial>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<mass value="1" />
+			<inertia ixx="1" ixy="1" ixz="1" iyy="1" iyz="1" izz="1" />
+		</inertial>
+		<visual>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 3.999363" />
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 3.999363" />
+			</geometry>
+		</collision>
+	</link>
+	<joint name="a5b94ef0-65c9-4467-b3f9-f12e5ff82e58" label="FixedWall" type="fixed">
+		<origin xyz="3.99271941184998 4.02197980880737 0" rpy="1.57079633845036 3.13064376203373 1.57079632666728" />
+		<axis xyz="0 0 1" />
+		<parent link="9c84ce1f-2124-49be-ad7d-22973942c4ef" />
+		<child link="c9c0bf0e-14ac-4760-8b9c-1d82fcb55f6b" />
+		<limits effort="100000000" velocity="100000000" lower="0" upper="0" />
+	</joint>
+	<link name="c9c0bf0e-14ac-4760-8b9c-1d82fcb55f6b" label="Wall" type="Wall">
+		<inertial>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<mass value="1" />
+			<inertia ixx="1" ixy="1" ixz="1" iyy="1" iyz="1" izz="1" />
+		</inertial>
+		<visual>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 2.010810" />
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 2.010810" />
+			</geometry>
+		</collision>
+	</link>
+	<joint name="342c30c2-5554-42f1-86be-60dcfc18ac8b" label="FixedWall" type="fixed">
+		<origin xyz="2.99471282958984 3.02030467987061 0" rpy="1.57078839999919 -1.5635501907544 1.57078840020683" />
+		<axis xyz="0 0 1" />
+		<parent link="9c84ce1f-2124-49be-ad7d-22973942c4ef" />
+		<child link="bde133e5-a21c-4c07-9d08-49114b50351b" />
+		<limits effort="100000000" velocity="100000000" lower="0" upper="0" />
+	</joint>
+	<link name="bde133e5-a21c-4c07-9d08-49114b50351b" label="Wall" type="Wall">
+		<inertial>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<mass value="1" />
+			<inertia ixx="1" ixy="1" ixz="1" iyy="1" iyz="1" izz="1" />
+		</inertial>
+		<visual>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 2.025419" />
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 2.025419" />
+			</geometry>
+		</collision>
+	</link>
+	<joint name="8dee58fb-6c95-4662-ba97-2d655ad77a29" label="FixedWall" type="fixed">
+		<origin xyz="1.0018093585968 1.99980986118317 0" rpy="1.57079626869954 -3.13768717608157 1.57079632656801" />
+		<axis xyz="0 0 1" />
+		<parent link="9c84ce1f-2124-49be-ad7d-22973942c4ef" />
+		<child link="0ca40c5d-63d4-46db-9ddc-3695c062ff49" />
+		<limits effort="100000000" velocity="100000000" lower="0" upper="0" />
+	</joint>
+	<link name="0ca40c5d-63d4-46db-9ddc-3695c062ff49" label="Wall" type="Wall">
+		<inertial>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<mass value="1" />
+			<inertia ixx="1" ixy="1" ixz="1" iyy="1" iyz="1" izz="1" />
+		</inertial>
+		<visual>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 4.000514" />
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 4.000514" />
+			</geometry>
+		</collision>
+	</link>
+	<joint name="415cc133-0e1f-45c7-94f7-c315afaa589e" label="FixedWall" type="fixed">
+		<origin xyz="-1.00300741195679 2.50264453887939 0" rpy="1.57079959931703 1.57975553289292 1.5707930544042" />
+		<axis xyz="0 0 1" />
+		<parent link="9c84ce1f-2124-49be-ad7d-22973942c4ef" />
+		<child link="5aeeeff5-1ee2-4a7c-9c57-fe6493cf111a" />
+		<limits effort="100000000" velocity="100000000" lower="0" upper="0" />
+	</joint>
+	<link name="5aeeeff5-1ee2-4a7c-9c57-fe6493cf111a" label="Wall" type="Wall">
+		<inertial>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<mass value="1" />
+			<inertia ixx="1" ixy="1" ixz="1" iyy="1" iyz="1" izz="1" />
+		</inertial>
+		<visual>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 1.021334" />
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 1.021334" />
+			</geometry>
+		</collision>
+	</link>
+	<joint name="598703b3-6924-421f-a7ef-a29018e16d91" label="FixedWall" type="fixed">
+		<origin xyz="0.474365770816803 3.02064180374146 0" rpy="1.57079627787867 0.00495982690615301 1.57079632703751" />
+		<axis xyz="0 0 1" />
+		<parent link="9c84ce1f-2124-49be-ad7d-22973942c4ef" />
+		<child link="a9c1f724-1119-4084-9cbe-5cbade0da484" />
+		<limits effort="100000000" velocity="100000000" lower="0" upper="0" />
+	</joint>
+	<link name="a9c1f724-1119-4084-9cbe-5cbade0da484" label="Wall" type="Wall">
+		<inertial>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<mass value="1" />
+			<inertia ixx="1" ixy="1" ixz="1" iyy="1" iyz="1" izz="1" />
+		</inertial>
+		<visual>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 2.963933" />
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 2.963933" />
+			</geometry>
+		</collision>
+	</link>
+	<joint name="0e2883d5-876e-4929-ade9-437c5d76c429" label="FixedWall" type="fixed">
+		<origin xyz="2.23976016044617 3.9960789680481 0" rpy="1.57079617718389 1.28596702788998 1.57079647037801" />
+		<axis xyz="0 0 1" />
+		<parent link="9c84ce1f-2124-49be-ad7d-22973942c4ef" />
+		<child link="8675fda2-3e23-4e6e-b03a-ef89e9c337ad" />
+		<limits effort="100000000" velocity="100000000" lower="0" upper="0" />
+	</joint>
+	<link name="8675fda2-3e23-4e6e-b03a-ef89e9c337ad" label="Wall" type="Wall">
+		<inertial>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<mass value="1" />
+			<inertia ixx="1" ixy="1" ixz="1" iyy="1" iyz="1" izz="1" />
+		</inertial>
+		<visual>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 2.017457" />
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 2.017457" />
+			</geometry>
+		</collision>
+	</link>
+	<joint name="181c261a-b134-4c48-a052-aa1b7f596665" label="FixedWall" type="fixed">
+		<origin xyz="3.26376104354858 4.98627471923828 0" rpy="1.57079627138615 0.0298456906242991 1.57079632844836" />
+		<axis xyz="0 0 1" />
+		<parent link="9c84ce1f-2124-49be-ad7d-22973942c4ef" />
+		<child link="4ace1697-519c-462c-9fa0-e73fa9c60a4d" />
+		<limits effort="100000000" velocity="100000000" lower="0" upper="0" />
+	</joint>
+	<link name="4ace1697-519c-462c-9fa0-e73fa9c60a4d" label="Wall" type="Wall">
+		<inertial>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<mass value="1" />
+			<inertia ixx="1" ixy="1" ixz="1" iyy="1" iyz="1" izz="1" />
+		</inertial>
+		<visual>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 1.481769" />
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 1.481769" />
+			</geometry>
+		</collision>
+	</link>
+	<joint name="831c2575-e915-4601-9ec4-8bc950c26622" label="FixedWall" type="fixed">
+		<origin xyz="4.00491046905518 5.49785184860229 0" rpy="1.5707948198593 1.56958047953677 1.57079783372937" />
+		<axis xyz="0 0 1" />
+		<parent link="9c84ce1f-2124-49be-ad7d-22973942c4ef" />
+		<child link="18dea03e-290b-4c27-b798-1c02e61d9de9" />
+		<limits effort="100000000" velocity="100000000" lower="0" upper="0" />
+	</joint>
+	<link name="18dea03e-290b-4c27-b798-1c02e61d9de9" label="Wall" type="Wall">
+		<inertial>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<mass value="1" />
+			<inertia ixx="1" ixy="1" ixz="1" iyy="1" iyz="1" izz="1" />
+		</inertial>
+		<visual>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 0.978937" />
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 0.978937" />
+			</geometry>
+		</collision>
+	</link>
+	<joint name="b0f6e2df-e5c1-4eb4-9d4a-949563cd51e1" label="FixedWall" type="fixed">
+		<origin xyz="2.51575374603271 5.99468374252319 0" rpy="1.57079629811422 3.13664963543717 1.57079632693667" />
+		<axis xyz="0 0 1" />
+		<parent link="9c84ce1f-2124-49be-ad7d-22973942c4ef" />
+		<child link="90a43396-0981-47e5-96a1-f709667e1d09" />
+		<limits effort="100000000" velocity="100000000" lower="0" upper="0" />
+	</joint>
+	<link name="90a43396-0981-47e5-96a1-f709667e1d09" label="Wall" type="Wall">
+		<inertial>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<mass value="1" />
+			<inertia ixx="1" ixy="1" ixz="1" iyy="1" iyz="1" izz="1" />
+		</inertial>
+		<visual>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 2.979540" />
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 2.979540" />
+			</geometry>
+		</collision>
+	</link>
+	<joint name="c6bd2c30-168c-484f-b305-56eb9d57f22e" label="FixedWall" type="fixed">
+		<origin xyz="1.01440191268921 5.26249980926514 0" rpy="1.57080079549143 -1.58648056849924 1.57080079494211" />
+		<axis xyz="0 0 1" />
+		<parent link="9c84ce1f-2124-49be-ad7d-22973942c4ef" />
+		<child link="c46db4e8-9609-42be-afc1-4e7fed5db08e" />
+		<limits effort="100000000" velocity="100000000" lower="0" upper="0" />
+	</joint>
+	<link name="c46db4e8-9609-42be-afc1-4e7fed5db08e" label="Wall" type="Wall">
+		<inertial>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<mass value="1" />
+			<inertia ixx="1" ixy="1" ixz="1" iyy="1" iyz="1" izz="1" />
+		</inertial>
+		<visual>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 1.479277" />
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 1.479277" />
+			</geometry>
+		</collision>
+	</link>
+	<joint name="22dfe8d5-f257-427a-97c5-79c20f7348bf" label="FixedWall" type="fixed">
+		<origin xyz="-0.505240976810455 4.5266284942627 0" rpy="1.57079633108408 3.13915476340489 1.57079632678444" />
+		<axis xyz="0 0 1" />
+		<parent link="9c84ce1f-2124-49be-ad7d-22973942c4ef" />
+		<child link="f923e30d-38db-43c3-acdc-752927eae7b5" />
+		<limits effort="100000000" velocity="100000000" lower="0" upper="0" />
+	</joint>
+	<link name="f923e30d-38db-43c3-acdc-752927eae7b5" label="Wall" type="Wall">
+		<inertial>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<mass value="1" />
+			<inertia ixx="1" ixy="1" ixz="1" iyy="1" iyz="1" izz="1" />
+		</inertial>
+		<visual>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 3.016095" />
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 3.016095" />
+			</geometry>
+		</collision>
+	</link>
+	<joint name="f5ff1fd8-09d2-403f-afff-332e4d7354b4" label="FixedWall" type="fixed">
+		<origin xyz="-2.0026524066925 2.25663280487061 0" rpy="1.57076814581351 -1.56612049685097 1.57076814611787" />
+		<axis xyz="0 0 1" />
+		<parent link="9c84ce1f-2124-49be-ad7d-22973942c4ef" />
+		<child link="a4f7b097-b8be-4e90-8c3b-78ff6b6e9341" />
+		<limits effort="100000000" velocity="100000000" lower="0" upper="0" />
+	</joint>
+	<link name="a4f7b097-b8be-4e90-8c3b-78ff6b6e9341" label="Wall" type="Wall">
+		<inertial>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<mass value="1" />
+			<inertia ixx="1" ixy="1" ixz="1" iyy="1" iyz="1" izz="1" />
+		</inertial>
+		<visual>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 4.547394" />
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 4.547394" />
+			</geometry>
+		</collision>
+	</link>
+	<joint name="7b053241-a340-4b13-83d2-a96d8fb3dd9a" label="FixedWall" type="fixed">
+		<origin xyz="-1.49686670303345 -0.00970160961151123 0" rpy="1.57079626234433 0.0148177315196868 1.57079632774987" />
+		<axis xyz="0 0 1" />
+		<parent link="9c84ce1f-2124-49be-ad7d-22973942c4ef" />
+		<child link="335d93ad-6550-496e-82a4-3db7521cd81a" />
+		<limits effort="100000000" velocity="100000000" lower="0" upper="0" />
+	</joint>
+	<link name="335d93ad-6550-496e-82a4-3db7521cd81a" label="Wall" type="Wall">
+		<inertial>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<mass value="1" />
+			<inertia ixx="1" ixy="1" ixz="1" iyy="1" iyz="1" izz="1" />
+		</inertial>
+		<visual>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 0.990417" />
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 0.990417" />
+			</geometry>
+		</collision>
+	</link>
+	<joint name="b67af784-8692-432f-af09-216014b64d39" label="FixedWall" type="fixed">
+		<origin xyz="-1.0035285949707 -0.505352735519409 0" rpy="1.57079013989244 -1.57440727148711 1.57079013993291" />
+		<axis xyz="0 0 1" />
+		<parent link="9c84ce1f-2124-49be-ad7d-22973942c4ef" />
+		<child link="e337c2bd-d008-4a45-b87d-a53ff6869d57" />
+		<limits effort="100000000" velocity="100000000" lower="0" upper="0" />
+	</joint>
+	<link name="e337c2bd-d008-4a45-b87d-a53ff6869d57" label="Wall" type="Wall">
+		<inertial>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<mass value="1" />
+			<inertia ixx="1" ixy="1" ixz="1" iyy="1" iyz="1" izz="1" />
+		</inertial>
+		<visual>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 1.005984" />
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="1.25 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2.500000 1.005984" />
+			</geometry>
+		</collision>
+	</link>
+</robot>

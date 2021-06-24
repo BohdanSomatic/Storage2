@@ -1,0 +1,654 @@
+<?xml version="1.0"?>
+<timestamp>1623234960</timestamp>
+<plan>
+    <map name="square3x3" />
+    <robot_start_state>
+        <start_state>
+            <arm>0 0.261799 -3.14159 2.61799 0 1.309 0 </arm>
+            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+            <tool_type>0</tool_type>
+            <chem_on>0</chem_on>
+            <water_on>0</water_on>
+            <blower_on>0</blower_on>
+            <vacuum_on>0</vacuum_on>
+            <cartesian>0</cartesian>
+        </start_state>
+    </robot_start_state>
+    <root node_name="root" tag="" node_active="1" node_type="0" collapsed="0">
+        <node_child node_name="Vacuum" tag="" node_active="1" node_type="1" name="Vacuum" description="" error_code="0" type="3">
+            <subtask>
+                <tool>1</tool>
+            </subtask>
+            <valid>0</valid>
+            <time>0.00000000</time>
+            <start_state>
+                <arm>0 0.261799 -3.14159 2.61799 0 1.309 0 </arm>
+                <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                <tool_type>0</tool_type>
+                <chem_on>0</chem_on>
+                <water_on>0</water_on>
+                <blower_on>0</blower_on>
+                <vacuum_on>0</vacuum_on>
+                <cartesian>0</cartesian>
+            </start_state>
+        </node_child>
+        <node_child node_name="Tofrwrd" tag="" node_active="1" node_type="1" name="Tofrwrd" description="" error_code="0" type="1">
+            <subtask pingPongCount="1">
+                <trajectory onlyKeyPoints="1">
+                    <points>
+                        <p>
+                            <t>0.00000000</t>
+                            <arm>0 0.261799 -3.14159 2.61799 0 1.309 0 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>0</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </p>
+                        <p>
+                            <t>8.72886652</t>
+                            <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                        </p>
+                    </points>
+                </trajectory>
+                <waypoints>
+                    <waypoints>
+                        <waypoint>
+                            <t>0.00000000</t>
+                            <cartesian>0</cartesian>
+                            <arm>0 0.261799 -3.14159 2.61799 0 1.309 0 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>0</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                        <waypoint>
+                            <t>8.72886652</t>
+                            <cartesian>0</cartesian>
+                            <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>0</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                    </waypoints>
+                </waypoints>
+            </subtask>
+            <valid>0</valid>
+            <time>0.00000000</time>
+            <start_state>
+                <arm>0 0.261799 -3.14159 2.61799 0 1.309 0 </arm>
+                <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                <tool_type>1</tool_type>
+                <chem_on>0</chem_on>
+                <water_on>0</water_on>
+                <blower_on>0</blower_on>
+                <vacuum_on>0</vacuum_on>
+                <cartesian>0</cartesian>
+            </start_state>
+        </node_child>
+        <node_child node_name="Vacc" tag="" node_active="1" node_type="1" name="Vacc" description="" error_code="0" type="1">
+            <subtask pingPongCount="1">
+                <trajectory onlyKeyPoints="1">
+                    <points>
+                        <p>
+                            <t>0.00000000</t>
+                            <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </p>
+                        <p>
+                            <t>1.26699292</t>
+                            <arm>-3.10526 -0.426108 -3.15009 2.56327 -0.073388 2.16575 0.857597 </arm>
+                        </p>
+                        <p>
+                            <t>4.70813927</t>
+                            <arm>-3.13127 -1.01602 -3.10616 2.67211 -0.0953043 1.68505 0.887479 </arm>
+                        </p>
+                        <p>
+                            <t>5.79104576</t>
+                            <arm>-2.8457 -0.709989 -2.98216 2.13207 -0.152218 1.48056 1.30593 </arm>
+                        </p>
+                        <p>
+                            <t>8.40822123</t>
+                            <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                        </p>
+                    </points>
+                </trajectory>
+                <waypoints>
+                    <waypoints>
+                        <waypoint>
+                            <t>0.00000000</t>
+                            <cartesian>0</cartesian>
+                            <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                        <waypoint>
+                            <t>1.26699292</t>
+                            <cartesian>0</cartesian>
+                            <arm>-3.10526 -0.426108 -3.15009 2.56327 -0.073388 2.16575 0.857597 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                        <waypoint>
+                            <t>4.70813927</t>
+                            <cartesian>0</cartesian>
+                            <arm>-3.13127 -1.01602 -3.10616 2.67211 -0.0953043 1.68505 0.887479 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                        <waypoint>
+                            <t>5.79104576</t>
+                            <cartesian>0</cartesian>
+                            <arm>-2.8457 -0.709989 -2.98216 2.13207 -0.152218 1.48056 1.30593 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                        <waypoint>
+                            <t>8.40822123</t>
+                            <cartesian>0</cartesian>
+                            <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                    </waypoints>
+                </waypoints>
+            </subtask>
+            <valid>0</valid>
+            <time>1.29866761</time>
+            <start_state>
+                <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                <tool_type>1</tool_type>
+                <chem_on>0</chem_on>
+                <water_on>0</water_on>
+                <blower_on>0</blower_on>
+                <vacuum_on>0</vacuum_on>
+                <cartesian>0</cartesian>
+            </start_state>
+        </node_child>
+        <node_child node_name="Vacc(1)" tag="" node_active="1" node_type="1" name="Vacc(1)" description="" error_code="0" type="1">
+            <subtask pingPongCount="1">
+                <trajectory onlyKeyPoints="1">
+                    <points>
+                        <p>
+                            <t>0.00000000</t>
+                            <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </p>
+                        <p>
+                            <t>1.26699292</t>
+                            <arm>-3.10526 -0.426108 -3.15009 2.56327 -0.073388 2.16575 0.857597 </arm>
+                        </p>
+                        <p>
+                            <t>4.70813927</t>
+                            <arm>-3.13127 -1.01602 -3.10616 2.67211 -0.0953043 1.68505 0.887479 </arm>
+                        </p>
+                        <p>
+                            <t>5.79104576</t>
+                            <arm>-2.8457 -0.709989 -2.98216 2.13207 -0.152218 1.48056 1.30593 </arm>
+                        </p>
+                        <p>
+                            <t>8.40822123</t>
+                            <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                        </p>
+                    </points>
+                </trajectory>
+                <waypoints>
+                    <waypoints>
+                        <waypoint>
+                            <t>0.00000000</t>
+                            <cartesian>0</cartesian>
+                            <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                        <waypoint>
+                            <t>1.26699292</t>
+                            <cartesian>0</cartesian>
+                            <arm>-3.10526 -0.426108 -3.15009 2.56327 -0.073388 2.16575 0.857597 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                        <waypoint>
+                            <t>4.70813927</t>
+                            <cartesian>0</cartesian>
+                            <arm>-3.13127 -1.01602 -3.10616 2.67211 -0.0953043 1.68505 0.887479 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                        <waypoint>
+                            <t>5.79104576</t>
+                            <cartesian>0</cartesian>
+                            <arm>-2.8457 -0.709989 -2.98216 2.13207 -0.152218 1.48056 1.30593 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                        <waypoint>
+                            <t>8.40822123</t>
+                            <cartesian>0</cartesian>
+                            <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                    </waypoints>
+                </waypoints>
+            </subtask>
+            <valid>0</valid>
+            <time>1.29866761</time>
+            <start_state>
+                <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                <tool_type>1</tool_type>
+                <chem_on>0</chem_on>
+                <water_on>0</water_on>
+                <blower_on>0</blower_on>
+                <vacuum_on>0</vacuum_on>
+                <cartesian>0</cartesian>
+            </start_state>
+        </node_child>
+        <node_child node_name="Vacc(2)" tag="" node_active="1" node_type="1" name="Vacc(2)" description="" error_code="0" type="1">
+            <subtask pingPongCount="1">
+                <trajectory onlyKeyPoints="1">
+                    <points>
+                        <p>
+                            <t>0.00000000</t>
+                            <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </p>
+                        <p>
+                            <t>1.26699292</t>
+                            <arm>-3.10526 -0.426108 -3.15009 2.56327 -0.073388 2.16575 0.857597 </arm>
+                        </p>
+                        <p>
+                            <t>4.70813927</t>
+                            <arm>-3.13127 -1.01602 -3.10616 2.67211 -0.0953043 1.68505 0.887479 </arm>
+                        </p>
+                        <p>
+                            <t>5.79104576</t>
+                            <arm>-2.8457 -0.709989 -2.98216 2.13207 -0.152218 1.48056 1.30593 </arm>
+                        </p>
+                        <p>
+                            <t>8.40822123</t>
+                            <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                        </p>
+                    </points>
+                </trajectory>
+                <waypoints>
+                    <waypoints>
+                        <waypoint>
+                            <t>0.00000000</t>
+                            <cartesian>0</cartesian>
+                            <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                        <waypoint>
+                            <t>1.26699292</t>
+                            <cartesian>0</cartesian>
+                            <arm>-3.10526 -0.426108 -3.15009 2.56327 -0.073388 2.16575 0.857597 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                        <waypoint>
+                            <t>4.70813927</t>
+                            <cartesian>0</cartesian>
+                            <arm>-3.13127 -1.01602 -3.10616 2.67211 -0.0953043 1.68505 0.887479 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                        <waypoint>
+                            <t>5.79104576</t>
+                            <cartesian>0</cartesian>
+                            <arm>-2.8457 -0.709989 -2.98216 2.13207 -0.152218 1.48056 1.30593 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                        <waypoint>
+                            <t>8.40822123</t>
+                            <cartesian>0</cartesian>
+                            <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                    </waypoints>
+                </waypoints>
+            </subtask>
+            <valid>0</valid>
+            <time>1.29866761</time>
+            <start_state>
+                <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                <tool_type>1</tool_type>
+                <chem_on>0</chem_on>
+                <water_on>0</water_on>
+                <blower_on>0</blower_on>
+                <vacuum_on>0</vacuum_on>
+                <cartesian>0</cartesian>
+            </start_state>
+        </node_child>
+        <node_child node_name="Vacc(4)" tag="" node_active="1" node_type="1" name="Vacc(4)" description="" error_code="0" type="1">
+            <subtask pingPongCount="1">
+                <trajectory onlyKeyPoints="1">
+                    <points>
+                        <p>
+                            <t>0.00000000</t>
+                            <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </p>
+                        <p>
+                            <t>1.26699292</t>
+                            <arm>-3.10526 -0.426108 -3.15009 2.56327 -0.073388 2.16575 0.857597 </arm>
+                        </p>
+                        <p>
+                            <t>4.70813927</t>
+                            <arm>-3.13127 -1.01602 -3.10616 2.67211 -0.0953043 1.68505 0.887479 </arm>
+                        </p>
+                        <p>
+                            <t>5.79104576</t>
+                            <arm>-2.8457 -0.709989 -2.98216 2.13207 -0.152218 1.48056 1.30593 </arm>
+                        </p>
+                        <p>
+                            <t>8.40822123</t>
+                            <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                        </p>
+                    </points>
+                </trajectory>
+                <waypoints>
+                    <waypoints>
+                        <waypoint>
+                            <t>0.00000000</t>
+                            <cartesian>0</cartesian>
+                            <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                        <waypoint>
+                            <t>1.26699292</t>
+                            <cartesian>0</cartesian>
+                            <arm>-3.10526 -0.426108 -3.15009 2.56327 -0.073388 2.16575 0.857597 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                        <waypoint>
+                            <t>4.70813927</t>
+                            <cartesian>0</cartesian>
+                            <arm>-3.13127 -1.01602 -3.10616 2.67211 -0.0953043 1.68505 0.887479 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                        <waypoint>
+                            <t>5.79104576</t>
+                            <cartesian>0</cartesian>
+                            <arm>-2.8457 -0.709989 -2.98216 2.13207 -0.152218 1.48056 1.30593 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                        <waypoint>
+                            <t>8.40822123</t>
+                            <cartesian>0</cartesian>
+                            <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                    </waypoints>
+                </waypoints>
+            </subtask>
+            <valid>0</valid>
+            <time>1.29866761</time>
+            <start_state>
+                <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                <tool_type>1</tool_type>
+                <chem_on>0</chem_on>
+                <water_on>0</water_on>
+                <blower_on>0</blower_on>
+                <vacuum_on>0</vacuum_on>
+                <cartesian>0</cartesian>
+            </start_state>
+        </node_child>
+        <node_child node_name="Vacc(3)" tag="" node_active="1" node_type="1" name="Vacc(3)" description="" error_code="0" type="1">
+            <subtask pingPongCount="1">
+                <trajectory onlyKeyPoints="1">
+                    <points>
+                        <p>
+                            <t>0.00000000</t>
+                            <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </p>
+                        <p>
+                            <t>1.26699292</t>
+                            <arm>-3.10526 -0.426108 -3.15009 2.56327 -0.073388 2.16575 0.857597 </arm>
+                        </p>
+                        <p>
+                            <t>4.70813927</t>
+                            <arm>-3.13127 -1.01602 -3.10616 2.67211 -0.0953043 1.68505 0.887479 </arm>
+                        </p>
+                        <p>
+                            <t>5.79104576</t>
+                            <arm>-2.8457 -0.709989 -2.98216 2.13207 -0.152218 1.48056 1.30593 </arm>
+                        </p>
+                        <p>
+                            <t>8.40822123</t>
+                            <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                        </p>
+                    </points>
+                </trajectory>
+                <waypoints>
+                    <waypoints>
+                        <waypoint>
+                            <t>0.00000000</t>
+                            <cartesian>0</cartesian>
+                            <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                        <waypoint>
+                            <t>1.26699292</t>
+                            <cartesian>0</cartesian>
+                            <arm>-3.10526 -0.426108 -3.15009 2.56327 -0.073388 2.16575 0.857597 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                        <waypoint>
+                            <t>4.70813927</t>
+                            <cartesian>0</cartesian>
+                            <arm>-3.13127 -1.01602 -3.10616 2.67211 -0.0953043 1.68505 0.887479 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                        <waypoint>
+                            <t>5.79104576</t>
+                            <cartesian>0</cartesian>
+                            <arm>-2.8457 -0.709989 -2.98216 2.13207 -0.152218 1.48056 1.30593 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                        <waypoint>
+                            <t>8.40822123</t>
+                            <cartesian>0</cartesian>
+                            <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>1</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>1</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                    </waypoints>
+                </waypoints>
+            </subtask>
+            <valid>0</valid>
+            <time>1.29866761</time>
+            <start_state>
+                <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                <tool_type>1</tool_type>
+                <chem_on>0</chem_on>
+                <water_on>0</water_on>
+                <blower_on>0</blower_on>
+                <vacuum_on>0</vacuum_on>
+                <cartesian>0</cartesian>
+            </start_state>
+        </node_child>
+    </root>
+</plan>

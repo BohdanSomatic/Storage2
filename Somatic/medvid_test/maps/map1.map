@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<timestamp>1616515241</timestamp>
+<robot>
+	<point_clouds>
+		<pc name="2020-7-27 - lviv - colorized" size="885912" path="/home/amedvid/.ros/planning_data/information/Somatic/medvid_test/scans/2020-7-27 - lviv - colorized.ply">
+			<origin xyz="-1.43588876724243 -0.201801002025604 1.12999999523163" rpy="-0 0 0.139626344388387" />
+		</pc>
+	</point_clouds>
+	<link name="7edc6750-8fd9-46a5-b7dd-e97147d2d2a6" label="root" type="FloorRoot">
+		<inertial>
+			<origin xyz="0 0 0" rpy="-0 0 -0" />
+			<mass value="1" />
+			<inertia ixx="1" ixy="1" ixz="1" iyy="1" iyz="1" izz="1" />
+		</inertial>
+		<visual>
+			<origin xyz="0 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2000.000000 2000.000000" />
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="-0 0 -0" />
+			<geometry>
+				<rectangle size="2000.000000 2000.000000" />
+			</geometry>
+		</collision>
+	</link>
+</robot>
