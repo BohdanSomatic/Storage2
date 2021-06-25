@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<timestamp>1623168650</timestamp>
+<timestamp>1624643642</timestamp>
 <plan>
     <map name="dec8bmap" />
     <robot_start_state>
@@ -36,7 +36,7 @@
                         </start_state>
                     </node_child>
                     <node_child node_name="frwrd" tag="" node_active="1" node_type="1" name="frwrd" description="" error_code="0" type="1">
-                        <subtask pingPongCount="1">
+                        <subtask>
                             <trajectory onlyKeyPoints="1">
                                 <points>
                                     <p>
@@ -142,7 +142,7 @@
                             </start_state>
                         </node_child>
                         <node_child node_name="WaterUr1" tag="" node_active="1" node_type="1" name="WaterUr1" description="" error_code="0" type="1">
-                            <subtask pingPongCount="1">
+                            <subtask>
                                 <trajectory onlyKeyPoints="1">
                                     <points>
                                         <p>
@@ -320,7 +320,7 @@
                             </start_state>
                         </node_child>
                         <node_child node_name="Waterur2" tag="" node_active="1" node_type="1" name="Waterur2" description="" error_code="0" type="1">
-                            <subtask pingPongCount="1">
+                            <subtask>
                                 <trajectory onlyKeyPoints="1">
                                     <points>
                                         <p>
@@ -488,7 +488,7 @@
                         </node_child>
                         <node_child node_name="Stall1" tag="" node_active="1" node_type="0" collapsed="0">
                             <node_child node_name="Watert1" tag="" node_active="1" node_type="1" name="Watert1" description="" error_code="0" type="1">
-                                <subtask pingPongCount="1">
+                                <subtask>
                                     <trajectory onlyKeyPoints="1">
                                         <points>
                                             <p>
@@ -707,7 +707,7 @@
                                 </start_state>
                             </node_child>
                             <node_child node_name="Waterflr1" tag="" node_active="1" node_type="1" name="Waterflr1" description="" error_code="0" type="1">
-                                <subtask pingPongCount="2">
+                                <subtask>
                                     <trajectory onlyKeyPoints="1">
                                         <points>
                                             <p>
@@ -854,7 +854,7 @@
                         </node_child>
                         <node_child node_name="Stall2" tag="" node_active="1" node_type="0" collapsed="0">
                             <node_child node_name="Watert2" tag="" node_active="1" node_type="1" name="Watert2" description="" error_code="0" type="1">
-                                <subtask pingPongCount="1">
+                                <subtask>
                                     <trajectory onlyKeyPoints="1">
                                         <points>
                                             <p>
@@ -1073,7 +1073,7 @@
                                 </start_state>
                             </node_child>
                             <node_child node_name="Waterst2" tag="" node_active="1" node_type="1" name="Waterst2" description="" error_code="0" type="1">
-                                <subtask pingPongCount="2">
+                                <subtask>
                                     <trajectory onlyKeyPoints="1">
                                         <points>
                                             <p>
@@ -1223,7 +1223,7 @@
                         </node_child>
                         <node_child node_name="Stall3" tag="" node_active="1" node_type="0" collapsed="0">
                             <node_child node_name="Watert3" tag="" node_active="1" node_type="1" name="Watert3" description="" error_code="0" type="1">
-                                <subtask pingPongCount="1">
+                                <subtask>
                                     <trajectory onlyKeyPoints="1">
                                         <points>
                                             <p>
@@ -1474,7 +1474,7 @@
                                 </start_state>
                             </node_child>
                             <node_child node_name="Waterst3" tag="" node_active="1" node_type="1" name="Waterst3" description="" error_code="0" type="1">
-                                <subtask pingPongCount="1">
+                                <subtask>
                                     <trajectory onlyKeyPoints="1">
                                         <points>
                                             <p>
@@ -1635,7 +1635,7 @@
                             </start_state>
                         </node_child>
                         <node_child node_name="WatertopFlr" tag="" node_active="1" node_type="1" name="WatertopFlr" description="" error_code="0" type="1">
-                            <subtask pingPongCount="1">
+                            <subtask>
                                 <trajectory onlyKeyPoints="1">
                                     <points>
                                         <p>
@@ -1854,7 +1854,7 @@
                             </start_state>
                         </node_child>
                         <node_child node_name="Watermidflr" tag="" node_active="1" node_type="1" name="Watermidflr" description="" error_code="0" type="1">
-                            <subtask pingPongCount="1">
+                            <subtask>
                                 <trajectory onlyKeyPoints="1">
                                     <points>
                                         <p>
@@ -1993,7 +1993,7 @@
                             </start_state>
                         </node_child>
                         <node_child node_name="Watersts" tag="" node_active="1" node_type="1" name="Watersts" description="" error_code="0" type="1">
-                            <subtask pingPongCount="1">
+                            <subtask>
                                 <trajectory onlyKeyPoints="1">
                                     <points>
                                         <p>
@@ -2246,7 +2246,7 @@
                             </start_state>
                         </node_child>
                         <node_child node_name="WaterUr1" tag="" node_active="1" node_type="1" name="WaterUr1" description="" error_code="0" type="1">
-                            <subtask pingPongCount="1">
+                            <subtask>
                                 <trajectory onlyKeyPoints="1">
                                     <points>
                                         <p>
@@ -2420,7 +2420,7 @@
                             </start_state>
                         </node_child>
                         <node_child node_name="Waterur2" tag="" node_active="1" node_type="1" name="Waterur2" description="" error_code="0" type="1">
-                            <subtask pingPongCount="1">
+                            <subtask>
                                 <trajectory onlyKeyPoints="1">
                                     <points>
                                         <p>
@@ -2584,7 +2584,7 @@
                         </node_child>
                         <node_child node_name="Stall1" tag="" node_active="1" node_type="0" collapsed="1">
                             <node_child node_name="Watert1" tag="" node_active="1" node_type="1" name="Watert1" description="" error_code="0" type="1">
-                                <subtask pingPongCount="1">
+                                <subtask>
                                     <trajectory onlyKeyPoints="1">
                                         <points>
                                             <p>
@@ -2801,7 +2801,7 @@
                                 </start_state>
                             </node_child>
                             <node_child node_name="Waterflr1" tag="" node_active="1" node_type="1" name="Waterflr1" description="" error_code="0" type="1">
-                                <subtask pingPongCount="2">
+                                <subtask>
                                     <trajectory onlyKeyPoints="1">
                                         <points>
                                             <p>
@@ -2930,7 +2930,7 @@
                         </node_child>
                         <node_child node_name="Stall2" tag="" node_active="1" node_type="0" collapsed="0">
                             <node_child node_name="Watert2" tag="" node_active="1" node_type="1" name="Watert2" description="" error_code="0" type="1">
-                                <subtask pingPongCount="1">
+                                <subtask>
                                     <trajectory onlyKeyPoints="1">
                                         <points>
                                             <p>
@@ -3147,7 +3147,7 @@
                                 </start_state>
                             </node_child>
                             <node_child node_name="Waterst2" tag="" node_active="1" node_type="1" name="Waterst2" description="" error_code="0" type="1">
-                                <subtask pingPongCount="2">
+                                <subtask>
                                     <trajectory onlyKeyPoints="1">
                                         <points>
                                             <p>
@@ -3282,7 +3282,7 @@
                         </node_child>
                         <node_child node_name="Stall3" tag="" node_active="1" node_type="0" collapsed="1">
                             <node_child node_name="Watert3" tag="" node_active="1" node_type="1" name="Watert3" description="" error_code="0" type="1">
-                                <subtask pingPongCount="1">
+                                <subtask>
                                     <trajectory onlyKeyPoints="1">
                                         <points>
                                             <p>
@@ -3531,7 +3531,7 @@
                                 </start_state>
                             </node_child>
                             <node_child node_name="Waterst3" tag="" node_active="1" node_type="1" name="Waterst3" description="" error_code="0" type="1">
-                                <subtask pingPongCount="1">
+                                <subtask>
                                     <trajectory onlyKeyPoints="1">
                                         <points>
                                             <p>
@@ -3690,7 +3690,7 @@
                             </start_state>
                         </node_child>
                         <node_child node_name="WatertopFlr" tag="" node_active="1" node_type="1" name="WatertopFlr" description="" error_code="0" type="1">
-                            <subtask pingPongCount="1">
+                            <subtask>
                                 <trajectory onlyKeyPoints="1">
                                     <points>
                                         <p>
@@ -3907,7 +3907,7 @@
                             </start_state>
                         </node_child>
                         <node_child node_name="Watermidflr" tag="" node_active="1" node_type="1" name="Watermidflr" description="" error_code="0" type="1">
-                            <subtask pingPongCount="1">
+                            <subtask>
                                 <trajectory onlyKeyPoints="1">
                                     <points>
                                         <p>
@@ -4044,7 +4044,7 @@
                             </start_state>
                         </node_child>
                         <node_child node_name="Watersts" tag="" node_active="1" node_type="1" name="Watersts" description="" error_code="0" type="1">
-                            <subtask pingPongCount="1">
+                            <subtask>
                                 <trajectory onlyKeyPoints="1">
                                     <points>
                                         <p>
@@ -4273,7 +4273,7 @@
             <node_child node_name="Vac" tag="" node_active="1" node_type="0" collapsed="0">
                 <node_child node_name="Tllcng" tag="" node_active="1" node_type="0" collapsed="1">
                     <node_child node_name="Fix 12_22_15" tag="" node_active="1" node_type="1" name="Fix 12_22_15" description="" error_code="0" type="1">
-                        <subtask pingPongCount="1">
+                        <subtask>
                             <trajectory onlyKeyPoints="1">
                                 <points>
                                     <p>
@@ -4353,7 +4353,7 @@
                         </start_state>
                     </node_child>
                     <node_child node_name="Vacuuming" tag="" node_active="1" node_type="1" name="Vacuuming" description="" error_code="0" type="1">
-                        <subtask pingPongCount="1">
+                        <subtask>
                             <trajectory onlyKeyPoints="1">
                                 <points>
                                     <p>
@@ -4474,7 +4474,7 @@
                         </start_state>
                     </node_child>
                     <node_child node_name="Vacuuming" tag="" node_active="1" node_type="1" name="Vacuuming" description="" error_code="0" type="7">
-                        <subtask pingPongCount="1">
+                        <subtask>
                             <trajectory onlyKeyPoints="1">
                                 <points>
                                     <p>
@@ -9591,7 +9591,7 @@
                         </start_state>
                     </node_child>
                     <node_child node_name="Vacuuming(1)" tag="" node_active="1" node_type="1" name="Vacuuming(1)" description="" error_code="0" type="7">
-                        <subtask pingPongCount="1">
+                        <subtask>
                             <trajectory onlyKeyPoints="1">
                                 <points>
                                     <p>
@@ -13142,7 +13142,7 @@
                         </start_state>
                     </node_child>
                     <node_child node_name="Vacuuming(2)" tag="" node_active="1" node_type="1" name="Vacuuming(2)" description="" error_code="0" type="7">
-                        <subtask pingPongCount="1">
+                        <subtask>
                             <trajectory onlyKeyPoints="1">
                                 <points>
                                     <p>
@@ -18439,7 +18439,7 @@
                             </start_state>
                         </node_child>
                         <node_child node_name="Vacuuming" tag="" node_active="1" node_type="1" name="Vacuuming" description="" error_code="0" type="7">
-                            <subtask pingPongCount="1">
+                            <subtask>
                                 <trajectory onlyKeyPoints="1">
                                     <points>
                                         <p>
@@ -19622,7 +19622,7 @@
                             </start_state>
                         </node_child>
                         <node_child node_name="Vacuuming(1)" tag="" node_active="1" node_type="1" name="Vacuuming(1)" description="" error_code="0" type="7">
-                            <subtask pingPongCount="1">
+                            <subtask>
                                 <trajectory onlyKeyPoints="1">
                                     <points>
                                         <p>
@@ -21125,7 +21125,7 @@
                             </start_state>
                         </node_child>
                         <node_child node_name="Vacuuming(2)" tag="" node_active="1" node_type="1" name="Vacuuming(2)" description="" error_code="0" type="7">
-                            <subtask pingPongCount="1">
+                            <subtask>
                                 <trajectory onlyKeyPoints="1">
                                     <points>
                                         <p>
@@ -22000,7 +22000,7 @@
                             </start_state>
                         </node_child>
                         <node_child node_name="Vacuuming(3)" tag="" node_active="1" node_type="1" name="Vacuuming(3)" description="" error_code="0" type="7">
-                            <subtask pingPongCount="1">
+                            <subtask>
                                 <trajectory onlyKeyPoints="1">
                                     <points>
                                         <p>
@@ -22760,7 +22760,7 @@
                             </start_state>
                         </node_child>
                         <node_child node_name="Vacuuming" tag="" node_active="1" node_type="1" name="Vacuuming" description="" error_code="0" type="7">
-                            <subtask pingPongCount="1">
+                            <subtask>
                                 <trajectory onlyKeyPoints="1">
                                     <points>
                                         <p>
@@ -25437,7 +25437,7 @@
                             </start_state>
                         </node_child>
                         <node_child node_name="Vacuuming(1)" tag="" node_active="1" node_type="1" name="Vacuuming(1)" description="" error_code="0" type="7">
-                            <subtask pingPongCount="1">
+                            <subtask>
                                 <trajectory onlyKeyPoints="1">
                                     <points>
                                         <p>
@@ -26664,7 +26664,7 @@
                             </start_state>
                         </node_child>
                         <node_child node_name="Vacuuming" tag="" node_active="1" node_type="1" name="Vacuuming" description="" error_code="0" type="7">
-                            <subtask pingPongCount="1">
+                            <subtask>
                                 <trajectory onlyKeyPoints="1">
                                     <points>
                                         <p>
@@ -29197,7 +29197,7 @@
                             </start_state>
                         </node_child>
                         <node_child node_name="Vacuuming(1)" tag="" node_active="1" node_type="1" name="Vacuuming(1)" description="" error_code="0" type="7">
-                            <subtask pingPongCount="1">
+                            <subtask>
                                 <trajectory onlyKeyPoints="1">
                                     <points>
                                         <p>
@@ -30508,7 +30508,7 @@
                             </start_state>
                         </node_child>
                         <node_child node_name="Vacuuming(2)" tag="" node_active="1" node_type="1" name="Vacuuming(2)" description="" error_code="0" type="7">
-                            <subtask pingPongCount="1">
+                            <subtask>
                                 <trajectory onlyKeyPoints="1">
                                     <points>
                                         <p>
@@ -31890,7 +31890,7 @@
                         </start_state>
                     </node_child>
                     <node_child node_name="Vacuuming" tag="" node_active="1" node_type="1" name="Vacuuming" description="" error_code="0" type="7">
-                        <subtask pingPongCount="1">
+                        <subtask>
                             <trajectory onlyKeyPoints="1">
                                 <points>
                                     <p>
@@ -37336,7 +37336,7 @@
                         </start_state>
                     </node_child>
                     <node_child node_name="Vacuuming(1)" tag="" node_active="1" node_type="1" name="Vacuuming(1)" description="" error_code="0" type="7">
-                        <subtask pingPongCount="1">
+                        <subtask>
                             <trajectory onlyKeyPoints="1">
                                 <points>
                                     <p>
@@ -41827,7 +41827,7 @@
                         </start_state>
                     </node_child>
                     <node_child node_name="Vacuuming(2)" tag="" node_active="1" node_type="1" name="Vacuuming(2)" description="" error_code="0" type="7">
-                        <subtask pingPongCount="1">
+                        <subtask>
                             <trajectory onlyKeyPoints="1">
                                 <points>
                                     <p>
@@ -43524,7 +43524,7 @@
                         </start_state>
                     </node_child>
                     <node_child node_name="Vacuuming(3)" tag="" node_active="1" node_type="1" name="Vacuuming(3)" description="" error_code="0" type="7">
-                        <subtask pingPongCount="1">
+                        <subtask>
                             <trajectory onlyKeyPoints="1">
                                 <points>
                                     <p>
@@ -44997,7 +44997,7 @@
                         </start_state>
                     </node_child>
                     <node_child node_name="Vacuuming" tag="" node_active="1" node_type="1" name="Vacuuming" description="" error_code="0" type="7">
-                        <subtask pingPongCount="1">
+                        <subtask>
                             <trajectory onlyKeyPoints="1">
                                 <points>
                                     <p>
@@ -49426,7 +49426,7 @@
                         </start_state>
                     </node_child>
                     <node_child node_name="Vacuuming(1)" tag="" node_active="1" node_type="1" name="Vacuuming(1)" description="" error_code="0" type="7">
-                        <subtask pingPongCount="1">
+                        <subtask>
                             <trajectory onlyKeyPoints="1">
                                 <points>
                                     <p>
@@ -53855,7 +53855,7 @@
                         </start_state>
                     </node_child>
                     <node_child node_name="Vacuuming(2)" tag="" node_active="1" node_type="1" name="Vacuuming(2)" description="" error_code="0" type="7">
-                        <subtask pingPongCount="1">
+                        <subtask>
                             <trajectory onlyKeyPoints="1">
                                 <points>
                                     <p>
@@ -58287,7 +58287,7 @@
                         </start_state>
                     </node_child>
                     <node_child node_name="Vacuuming(3)" tag="" node_active="1" node_type="1" name="Vacuuming(3)" description="" error_code="0" type="7">
-                        <subtask pingPongCount="1">
+                        <subtask>
                             <trajectory onlyKeyPoints="1">
                                 <points>
                                     <p>
@@ -62722,7 +62722,7 @@
                     </start_state>
                 </node_child>
                 <node_child node_name="Fix 17_43_51" tag="" node_active="1" node_type="1" name="Fix 17_43_51" description="" error_code="0" type="1">
-                    <subtask pingPongCount="1">
+                    <subtask>
                         <trajectory onlyKeyPoints="1">
                             <points>
                                 <p>
