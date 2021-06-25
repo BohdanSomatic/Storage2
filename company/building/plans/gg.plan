@@ -109,5 +109,29 @@
                 <cartesian>0</cartesian>
             </start_state>
         </node_child>
+        <node_child node_name="ad" tag="" node_active="1" node_type="1" name="ad" description="" error_code="0" type="0">
+            <subtask absolute="0">
+                <relocations>
+                    <relocation>
+                        <origin xyz="0 0 0" rpy="-0 0 -0" />
+                    </relocation>
+                    <relocation>
+                        <origin xyz="0.535425219123483 -0.685072152068338 0" rpy="-0 0 -0" />
+                    </relocation>
+                </relocations>
+            </subtask>
+            <valid>0</valid>
+            <time>0.00000000</time>
+            <start_state>
+                <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
+                <pose>-0.00354928 1.00799679 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                <tool_type>1</tool_type>
+                <chem_on>0</chem_on>
+                <water_on>0</water_on>
+                <blower_on>0</blower_on>
+                <vacuum_on>0</vacuum_on>
+                <cartesian>0</cartesian>
+            </start_state>
+        </node_child>
     </root>
 </plan>
