@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<timestamp>1617976275</timestamp>
+<timestamp>1624645030</timestamp>
 <plan>
     <map name="" />
     <robot_start_state>
@@ -16,7 +16,7 @@
     </robot_start_state>
     <root node_name="root" tag="" node_active="1" node_type="0" collapsed="0">
         <node_child node_name="1" tag="" node_active="1" node_type="1" name="1" description="" error_code="0" type="1">
-            <subtask pingPongCount="1">
+            <subtask>
                 <trajectory onlyKeyPoints="1">
                     <points>
                         <p>
@@ -127,7 +127,7 @@
             </start_state>
         </node_child>
         <node_child node_name="2" tag="" node_active="1" node_type="1" name="2" description="" error_code="0" type="1">
-            <subtask pingPongCount="1">
+            <subtask>
                 <trajectory onlyKeyPoints="1">
                     <points>
                         <p>
@@ -270,7 +270,7 @@
             </start_state>
         </node_child>
         <node_child node_name="11" tag="" node_active="1" node_type="1" name="11" description="" error_code="0" type="1">
-            <subtask pingPongCount="1">
+            <subtask>
                 <trajectory onlyKeyPoints="1">
                     <points>
                         <p>
