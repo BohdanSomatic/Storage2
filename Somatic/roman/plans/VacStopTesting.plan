@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<timestamp>1625495521</timestamp>
+<timestamp>1625495799</timestamp>
 <plan>
-    <map name="" />
+    <map name="dec8bmap" />
     <robot_start_state>
         <start_state>
             <arm>-3.22886 0.349066 -3.08923 2.61799 0.0349066 2.61799 0 </arm>
