@@ -1,10 +1,22 @@
 <?xml version="1.0"?>
-<timestamp>1613499015</timestamp>
+<timestamp>1625491604</timestamp>
 <plan>
     <map name="dec8bmap" />
+    <robot_start_state>
+        <start_state>
+            <arm>0 0.261799 -3.14159 2.61799 0 1.309 0 </arm>
+            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+            <tool_type>0</tool_type>
+            <chem_on>0</chem_on>
+            <water_on>0</water_on>
+            <blower_on>0</blower_on>
+            <vacuum_on>0</vacuum_on>
+            <cartesian>0</cartesian>
+        </start_state>
+    </robot_start_state>
     <root node_name="root" tag="" node_active="1" node_type="0" collapsed="0">
         <node_child node_name="o1" tag="" node_active="1" node_type="1" name="o1" description="" error_code="0" type="1">
-            <subtask pingPongCount="1">
+            <subtask>
                 <trajectory onlyKeyPoints="1">
                     <points>
                         <p>
@@ -630,7 +642,7 @@
             <time>1.00000000</time>
             <start_state>
                 <arm>0 0.261799 -3.14159 2.61799 3.296 2.257 0.988 </arm>
-                <pose>0.44658290 -0.29455731 0.00000000 0.96592583 0.00000000 0.00000000 0.25881905</pose>
+                <pose>0.44658290 -0.29455731 0.00000000 0.96592582 0.00000000 0.00000000 0.25881905</pose>
                 <tool_type>0</tool_type>
                 <chem_on>0</chem_on>
                 <water_on>0</water_on>
@@ -654,7 +666,7 @@
             <time>0.00000000</time>
             <start_state>
                 <arm>0 0.261799 -3.14159 2.61799 3.296 2.257 0.988 </arm>
-                <pose>0.44658290 -0.29455731 0.00000000 0.96592583 0.00000000 0.00000000 0.25881905</pose>
+                <pose>0.44658290 -0.29455731 0.00000000 0.96592582 0.00000000 0.00000000 0.25881905</pose>
                 <tool_type>0</tool_type>
                 <chem_on>0</chem_on>
                 <water_on>0</water_on>
