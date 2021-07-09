@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<timestamp>1625841844</timestamp>
+<timestamp>1625841902</timestamp>
 <plan>
     <map name="" />
     <robot_start_state>
@@ -5260,7 +5260,10 @@
                         <origin xyz="0 0 0" rpy="-0 0 -0" />
                     </relocation>
                     <relocation>
-                        <origin xyz="0.0224648321653058 0.584567099716668 0" rpy="-0 0 -0" />
+                        <origin xyz="0.85 0.372 0" rpy="-0 0 -0" />
+                    </relocation>
+                    <relocation>
+                        <origin xyz="0.0571058207187132 0.956958063673762 0" rpy="-0 0 -0" />
                     </relocation>
                 </relocations>
             </subtask>
