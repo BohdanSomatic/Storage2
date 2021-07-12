@@ -1,7 +1,19 @@
 <?xml version="1.0"?>
-<timestamp>1608131193</timestamp>
+<timestamp>1626103464</timestamp>
 <plan>
     <map name="" />
+    <robot_start_state>
+        <start_state>
+            <arm>0 0.261799 -3.14159 2.61799 0 1.309 0 </arm>
+            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+            <tool_type>0</tool_type>
+            <chem_on>0</chem_on>
+            <water_on>0</water_on>
+            <blower_on>0</blower_on>
+            <vacuum_on>0</vacuum_on>
+            <cartesian>0</cartesian>
+        </start_state>
+    </robot_start_state>
     <root node_name="root" tag="" node_active="1" node_type="0" collapsed="0">
         <node_child node_name="Vacuum" tag="" node_active="1" node_type="1" name="Vacuum" description="" error_code="0" type="3">
             <subtask>
@@ -13,69 +25,6 @@
                 <arm>0 0.261799 -3.14159 2.61799 0 1.309 0 </arm>
                 <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
                 <tool_type>0</tool_type>
-                <chem_on>0</chem_on>
-                <water_on>0</water_on>
-                <blower_on>0</blower_on>
-                <vacuum_on>0</vacuum_on>
-                <cartesian>0</cartesian>
-            </start_state>
-        </node_child>
-        <node_child node_name="frwrd" tag="" node_active="1" node_type="1" name="frwrd" description="" error_code="0" type="1">
-            <subtask pingPongCount="1">
-                <trajectory onlyKeyPoints="1">
-                    <points>
-                        <p>
-                            <t>0.00000000</t>
-                            <arm>0 0.261799 -3.14159 2.61799 0 1.309 0 </arm>
-                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
-                            <tool_type>1</tool_type>
-                            <chem_on>0</chem_on>
-                            <water_on>0</water_on>
-                            <blower_on>0</blower_on>
-                            <vacuum_on>0</vacuum_on>
-                            <cartesian>0</cartesian>
-                        </p>
-                        <p>
-                            <t>8.58938931</t>
-                            <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
-                        </p>
-                    </points>
-                </trajectory>
-                <waypoints>
-                    <waypoints>
-                        <waypoint>
-                            <t>0.00000000</t>
-                            <cartesian>0</cartesian>
-                            <arm>0 0.261799 -3.14159 2.61799 0 1.309 0 </arm>
-                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
-                            <tool_type>1</tool_type>
-                            <chem_on>0</chem_on>
-                            <water_on>0</water_on>
-                            <blower_on>0</blower_on>
-                            <vacuum_on>0</vacuum_on>
-                            <cartesian>0</cartesian>
-                        </waypoint>
-                        <waypoint>
-                            <t>8.58938931</t>
-                            <cartesian>0</cartesian>
-                            <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
-                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
-                            <tool_type>1</tool_type>
-                            <chem_on>0</chem_on>
-                            <water_on>0</water_on>
-                            <blower_on>0</blower_on>
-                            <vacuum_on>0</vacuum_on>
-                            <cartesian>0</cartesian>
-                        </waypoint>
-                    </waypoints>
-                </waypoints>
-            </subtask>
-            <valid>0</valid>
-            <time>0.00000000</time>
-            <start_state>
-                <arm>0 0.261799 -3.14159 2.61799 0 1.309 0 </arm>
-                <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
-                <tool_type>1</tool_type>
                 <chem_on>0</chem_on>
                 <water_on>0</water_on>
                 <blower_on>0</blower_on>
@@ -108,7 +57,7 @@
             </start_state>
         </node_child>
         <node_child node_name="ererwrwe" tag="" node_active="1" node_type="1" name="ererwrwe" description="" error_code="0" type="7">
-            <subtask pingPongCount="1">
+            <subtask>
                 <trajectory onlyKeyPoints="1">
                     <points>
                         <p>
@@ -1587,6 +1536,7 @@
                 <vac_areas>
                     <vac_area>
                         <arm>-2.94005 -0.191996 -2.83991 0.309655 -2.37481 0.628626 3.58302 </arm>
+                        <arm_states />
                         <dim>0.33 0.66 0.31 0.1 </dim>
                     </vac_area>
                 </vac_areas>
@@ -1605,7 +1555,7 @@
             </start_state>
         </node_child>
         <node_child node_name="trrt" tag="" node_active="1" node_type="1" name="trrt" description="" error_code="0" type="7">
-            <subtask pingPongCount="1">
+            <subtask>
                 <trajectory onlyKeyPoints="1">
                     <points>
                         <p>
@@ -4060,10 +4010,12 @@
                 <vac_areas>
                     <vac_area>
                         <arm>0.457219 0.966914 -5.51623 0.294055 0.134613 -1.09076 -0.0897213 </arm>
+                        <arm_states />
                         <dim>0 0.8 0.35 0.2 </dim>
                     </vac_area>
                     <vac_area>
                         <arm>-3.97474 -0.982094 -2.69551 0.504622 -0.151389 -1.05809 0.110944 </arm>
+                        <arm_states />
                         <dim>0.45 0.5 0.28 0.05 </dim>
                     </vac_area>
                 </vac_areas>
