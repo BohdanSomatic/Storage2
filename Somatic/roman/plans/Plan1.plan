@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<timestamp>1626103775</timestamp>
+<timestamp>1626103930</timestamp>
 <plan>
     <map name="dec8bmap" />
     <robot_start_state>
@@ -25,6 +25,45 @@
                 <arm>0 0.261799 -3.14159 2.61799 0 1.309 0 </arm>
                 <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
                 <tool_type>0</tool_type>
+                <chem_on>0</chem_on>
+                <water_on>0</water_on>
+                <blower_on>0</blower_on>
+                <vacuum_on>0</vacuum_on>
+                <cartesian>0</cartesian>
+            </start_state>
+        </node_child>
+        <node_child node_name="tc_tip" tag="" node_active="1" node_type="1" name="tc_tip" description="" error_code="0" type="3">
+            <subtask>
+                <tool>3</tool>
+            </subtask>
+            <valid>0</valid>
+            <time>0.00000000</time>
+            <start_state>
+                <arm>0 0.261799 -3.14159 2.61799 0 1.309 0 </arm>
+                <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                <tool_type>2</tool_type>
+                <chem_on>0</chem_on>
+                <water_on>0</water_on>
+                <blower_on>0</blower_on>
+                <vacuum_on>0</vacuum_on>
+                <cartesian>0</cartesian>
+            </start_state>
+        </node_child>
+        <node_child node_name="as" tag="" node_active="1" node_type="1" name="as" description="" error_code="0" type="8">
+            <subtask>
+                <origin xyz="0 0 0" rpy="-0 0 -0" />
+                <door_id>00000000-0000-0000-0000-000000000000</door_id>
+                <origin>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</origin>
+                <door_data width="0.80000000000000004" height="2.1000000000000001" thickness="0.050000000000000003" min_angle="0" max_angle="1.5707963267948966" hinges_offset="0" />
+                <handle_data length="0.20000000000000001" radius="0.01" protrusion="0.10000000000000001" delta_x="0.10000000000000001" delta_z="1" open_angle="-0.78539816339744828" />
+                <joints box_joint_id="" handle_joint_id="" cw_pad_joint_id="" ccw_pad_joint_id="" />
+            </subtask>
+            <valid>0</valid>
+            <time>0.00000000</time>
+            <start_state>
+                <arm>0 0.261799 -3.14159 2.61799 0 1.309 0 </arm>
+                <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                <tool_type>3</tool_type>
                 <chem_on>0</chem_on>
                 <water_on>0</water_on>
                 <blower_on>0</blower_on>
