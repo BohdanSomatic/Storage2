@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <timestamp>1626109777</timestamp>
+=======
+<timestamp>1626110441</timestamp>
+>>>>>>> FETCH_HEAD
 =======
 <timestamp>1626110441</timestamp>
 >>>>>>> FETCH_HEAD
@@ -62,10 +66,13 @@
                         <p>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <t>4.43938793</t>
                             <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
                         </p>
                         <p>
+=======
+>>>>>>> FETCH_HEAD
 =======
 >>>>>>> FETCH_HEAD
 =======
@@ -82,6 +89,7 @@
                             <arm>-1.25225 0.297989 -3.76372 0.34253 0.0859858 0.120075 0.261199 </arm>
                         </p>
                         <p>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                             <t>7.06215738</t>
@@ -410,6 +418,8 @@
                         <p>
                             <t>15.87159667</t>
 =======
+=======
+>>>>>>> FETCH_HEAD
 =======
 >>>>>>> FETCH_HEAD
                             <t>8.16004842</t>
@@ -1066,6 +1076,9 @@
                         <p>
                             <t>31.58534802</t>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
 =======
 >>>>>>> FETCH_HEAD
@@ -1102,6 +1115,7 @@
                         <waypoint>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <t>4.43938793</t>
                             <cartesian>0</cartesian>
                             <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
@@ -1114,6 +1128,8 @@
                             <cartesian>0</cartesian>
                         </waypoint>
                         <waypoint>
+=======
+>>>>>>> FETCH_HEAD
 =======
 >>>>>>> FETCH_HEAD
 =======
@@ -1156,8 +1172,13 @@
                         <waypoint>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <t>8.34834800</t>
                             <cartesian>1</cartesian>
+=======
+                            <t>8.16004842</t>
+                            <cartesian>0</cartesian>
+>>>>>>> FETCH_HEAD
 =======
                             <t>8.16004842</t>
                             <cartesian>0</cartesian>
@@ -1175,6 +1196,7 @@
                             <vacuum_on>0</vacuum_on>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <cartesian>1</cartesian>
                         </waypoint>
                         <waypoint>
@@ -1184,6 +1206,8 @@
 =======
 =======
 >>>>>>> FETCH_HEAD
+=======
+>>>>>>> FETCH_HEAD
                             <cartesian>0</cartesian>
                         </waypoint>
                         <waypoint>
@@ -1191,6 +1215,9 @@
                             <cartesian>0</cartesian>
                             <arm>0.457219 0.966914 -5.51623 0.294055 0.134613 -1.09076 -0.0897213 </arm>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
 =======
 >>>>>>> FETCH_HEAD
@@ -1205,9 +1232,15 @@
                         <waypoint>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <t>8.73083855</t>
                             <cartesian>0</cartesian>
                             <arm>0.50312 1.19175 -5.66624 0.414524 0.00188257 -1.17344 -0.150957 </arm>
+=======
+                            <t>8.46975120</t>
+                            <cartesian>0</cartesian>
+                            <arm>0.457219 0.966914 -5.51623 0.294055 0.134613 -1.09076 -0.0897213 </arm>
+>>>>>>> FETCH_HEAD
 =======
                             <t>8.46975120</t>
                             <cartesian>0</cartesian>
@@ -1229,9 +1262,15 @@
                         <waypoint>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <t>8.73083855</t>
                             <cartesian>1</cartesian>
                             <arm>0.50312 1.19175 -5.66624 0.414524 0.00188257 -1.17344 -0.150957 </arm>
+=======
+                            <t>8.46975120</t>
+                            <cartesian>1</cartesian>
+                            <arm>0.457219 0.966914 -5.51623 0.294055 0.134613 -1.09076 -0.0897213 </arm>
+>>>>>>> FETCH_HEAD
 =======
                             <t>8.46975120</t>
                             <cartesian>1</cartesian>
@@ -1251,6 +1290,7 @@
                             <cartesian>1</cartesian>
                         </waypoint>
                         <waypoint>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                             <t>9.27795731</t>
@@ -1266,6 +1306,11 @@
                             <cartesian>1</cartesian>
                             <arm>1.35382 1.0578 -5.98447 1.61732 0.800924 -0.211715 -0.210609 </arm>
 >>>>>>> FETCH_HEAD
+=======
+                            <t>11.58503110</t>
+                            <cartesian>1</cartesian>
+                            <arm>1.35382 1.0578 -5.98447 1.61732 0.800924 -0.211715 -0.210609 </arm>
+>>>>>>> FETCH_HEAD
                             <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
                             <tool_type>1</tool_type>
                             <chem_on>0</chem_on>
@@ -1275,6 +1320,7 @@
                             <cartesian>1</cartesian>
                         </waypoint>
                         <waypoint>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                             <t>10.22379684</t>
@@ -1290,6 +1336,11 @@
                             <cartesian>1</cartesian>
                             <arm>-0.124514 0.906949 -5.43586 0.466619 -0.0499918 -0.548815 -0.341669 </arm>
 >>>>>>> FETCH_HEAD
+=======
+                            <t>15.02209103</t>
+                            <cartesian>1</cartesian>
+                            <arm>-0.124514 0.906949 -5.43586 0.466619 -0.0499918 -0.548815 -0.341669 </arm>
+>>>>>>> FETCH_HEAD
                             <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
                             <tool_type>1</tool_type>
                             <chem_on>0</chem_on>
@@ -1299,6 +1350,7 @@
                             <cartesian>1</cartesian>
                         </waypoint>
                         <waypoint>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                             <t>10.95497486</t>
@@ -1314,6 +1366,11 @@
                             <cartesian>1</cartesian>
                             <arm>0.973042 1.15226 -5.89173 1.72321 0.108367 -0.0412778 0.140476 </arm>
 >>>>>>> FETCH_HEAD
+=======
+                            <t>17.16908255</t>
+                            <cartesian>1</cartesian>
+                            <arm>0.973042 1.15226 -5.89173 1.72321 0.108367 -0.0412778 0.140476 </arm>
+>>>>>>> FETCH_HEAD
                             <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
                             <tool_type>1</tool_type>
                             <chem_on>0</chem_on>
@@ -1325,9 +1382,15 @@
                         <waypoint>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <t>11.45124893</t>
                             <cartesian>1</cartesian>
                             <arm>0.50312 1.19175 -5.66624 0.414524 0.00188257 -1.17344 -0.150957 </arm>
+=======
+                            <t>19.62313635</t>
+                            <cartesian>1</cartesian>
+                            <arm>-0.308327 1.00232 -5.43984 0.881568 -0.2987 -0.0825653 -0.289686 </arm>
+>>>>>>> FETCH_HEAD
 =======
                             <t>19.62313635</t>
                             <cartesian>1</cartesian>
@@ -1345,6 +1408,7 @@
                             <blower_on>0</blower_on>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <vacuum_on>0</vacuum_on>
                             <cartesian>1</cartesian>
                         </waypoint>
@@ -1353,6 +1417,8 @@
                             <cartesian>0</cartesian>
                             <arm>0.50312 1.19175 -5.66624 0.414524 0.00188257 -1.17344 -0.150957 </arm>
 =======
+=======
+>>>>>>> FETCH_HEAD
 =======
 >>>>>>> FETCH_HEAD
                             <vacuum_on>1</vacuum_on>
@@ -1363,6 +1429,9 @@
                             <cartesian>1</cartesian>
                             <arm>0.797633 1.45222 -5.74094 2.31933 -0.0582321 0.359499 1.74846e-07 </arm>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
 =======
 >>>>>>> FETCH_HEAD
@@ -1373,6 +1442,7 @@
                             <blower_on>0</blower_on>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <vacuum_on>0</vacuum_on>
                             <cartesian>0</cartesian>
                         </waypoint>
@@ -1381,6 +1451,8 @@
                             <cartesian>1</cartesian>
                             <arm>0.426153 0.705767 -5.44814 0.34232 0.200182 -0.735795 -0.0753706 </arm>
 =======
+=======
+>>>>>>> FETCH_HEAD
 =======
 >>>>>>> FETCH_HEAD
                             <vacuum_on>1</vacuum_on>
@@ -1415,6 +1487,9 @@
                             <cartesian>1</cartesian>
                             <arm>0.457219 0.966914 -5.51623 0.294055 0.134613 -1.09076 -0.0897213 </arm>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
 =======
 >>>>>>> FETCH_HEAD
@@ -1427,6 +1502,7 @@
                             <cartesian>1</cartesian>
                         </waypoint>
                         <waypoint>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                             <t>13.24882723</t>
@@ -1442,6 +1518,11 @@
                             <cartesian>0</cartesian>
                             <arm>0.457219 0.966914 -5.51623 0.294055 0.134613 -1.09076 -0.0897213 </arm>
 >>>>>>> FETCH_HEAD
+=======
+                            <t>27.55498475</t>
+                            <cartesian>0</cartesian>
+                            <arm>0.457219 0.966914 -5.51623 0.294055 0.134613 -1.09076 -0.0897213 </arm>
+>>>>>>> FETCH_HEAD
                             <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
                             <tool_type>1</tool_type>
                             <chem_on>0</chem_on>
@@ -1451,6 +1532,7 @@
                             <cartesian>0</cartesian>
                         </waypoint>
                         <waypoint>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                             <t>14.06763556</t>
@@ -1466,6 +1548,11 @@
                             <cartesian>0</cartesian>
                             <arm>0.426153 0.705767 -5.44814 0.34232 0.200182 -0.735795 -0.0753706 </arm>
 >>>>>>> FETCH_HEAD
+=======
+                            <t>27.86468753</t>
+                            <cartesian>0</cartesian>
+                            <arm>0.426153 0.705767 -5.44814 0.34232 0.200182 -0.735795 -0.0753706 </arm>
+>>>>>>> FETCH_HEAD
                             <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
                             <tool_type>1</tool_type>
                             <chem_on>0</chem_on>
@@ -1475,6 +1562,7 @@
                             <cartesian>0</cartesian>
                         </waypoint>
                         <waypoint>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                             <t>14.96798556</t>
@@ -1490,6 +1578,11 @@
                             <cartesian>0</cartesian>
                             <arm>-1.25225 0.297989 -3.76372 0.34253 0.0859858 0.120075 0.261199 </arm>
 >>>>>>> FETCH_HEAD
+=======
+                            <t>28.96257857</t>
+                            <cartesian>0</cartesian>
+                            <arm>-1.25225 0.297989 -3.76372 0.34253 0.0859858 0.120075 0.261199 </arm>
+>>>>>>> FETCH_HEAD
                             <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
                             <tool_type>1</tool_type>
                             <chem_on>0</chem_on>
@@ -1501,10 +1594,13 @@
                         <waypoint>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <t>15.87159667</t>
                             <cartesian>0</cartesian>
                             <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
 =======
+=======
+>>>>>>> FETCH_HEAD
 =======
 >>>>>>> FETCH_HEAD
                             <t>29.78138691</t>
@@ -1523,6 +1619,9 @@
                             <cartesian>0</cartesian>
                             <arm>-1.6329 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
 =======
 >>>>>>> FETCH_HEAD
@@ -1537,7 +1636,11 @@
                         <waypoint>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <t>15.87159667</t>
+=======
+                            <t>31.58534802</t>
+>>>>>>> FETCH_HEAD
 =======
                             <t>31.58534802</t>
 >>>>>>> FETCH_HEAD
@@ -1560,6 +1663,7 @@
                     <vac_area>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <arm>0.50312 1.19175 -5.66624 0.414524 0.00188257 -1.17344 -0.150957 </arm>
                         <arm_states>
                             <as>0.50312 1.19175 -5.66624 0.414524 0.00188257 -1.17344 -0.150957 </as>
@@ -1571,6 +1675,8 @@
                         </arm_states>
                         <dim>0 0.1 0.12 0 </dim>
 =======
+=======
+>>>>>>> FETCH_HEAD
 =======
 >>>>>>> FETCH_HEAD
                         <arm>0.457219 0.966914 -5.51623 0.294055 0.134613 -1.09076 -0.0897213 </arm>
@@ -1588,6 +1694,9 @@
                         </arm_states>
                         <dim>0 0.8 0.35 0 </dim>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
 =======
 >>>>>>> FETCH_HEAD
