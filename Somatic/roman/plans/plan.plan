@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
+<<<<<<< HEAD
 <timestamp>1626107846</timestamp>
+=======
+<timestamp>1626109509</timestamp>
+>>>>>>> FETCH_HEAD
 <plan>
     <map name="" />
     <robot_start_state>
