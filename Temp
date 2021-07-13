@@ -3,7 +3,12 @@
 3
 <a>
  "AAAAAAAAAAAAAAA"
+<<<<<<< HEAD
  "aaaa"
+=======
+ "KKKKKKKKKKKKKKKKK
+ "
+>>>>>>> FETCH_HEAD
  "aaaa"
 <a>
 <b>
