@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<timestamp>1618235008</timestamp>
+<timestamp>1626185487</timestamp>
 <plan>
     <map name="testCab1" />
     <robot_start_state>
@@ -64,7 +64,7 @@
                 </start_state>
             </node_child>
             <node_child node_name="Fix 11_52_13" tag="" node_active="1" node_type="1" name="Fix 11_52_13" description="" error_code="0" type="1">
-                <subtask pingPongCount="1">
+                <subtask>
                     <trajectory onlyKeyPoints="1">
                         <points>
                             <p>
@@ -306,7 +306,7 @@
         <node_child node_name="vac" tag="" node_active="1" node_type="0" collapsed="0">
             <node_child node_name="tllcng" tag="" node_active="1" node_type="0" collapsed="0">
                 <node_child node_name="Fix 14_59_34" tag="" node_active="1" node_type="1" name="Fix 14_59_34" description="" error_code="0" type="1">
-                    <subtask pingPongCount="1">
+                    <subtask>
                         <trajectory onlyKeyPoints="1">
                             <points>
                                 <p>
@@ -388,7 +388,7 @@
             </node_child>
             <node_child node_name="doorside" tag="" node_active="1" node_type="0" collapsed="0">
                 <node_child node_name="Fix 11_52_14" tag="" node_active="1" node_type="1" name="Fix 11_52_14" description="" error_code="0" type="1">
-                    <subtask pingPongCount="1">
+                    <subtask>
                         <trajectory onlyKeyPoints="1">
                             <points>
                                 <p>
@@ -513,7 +513,7 @@
                     <time>2.36924023</time>
                     <start_state>
                         <arm>-3.0569 0.146229 -3.23582 2.48433 -0.167095 2.65181 0.71448 </arm>
-                        <pose>1.99772784 0.58834247 0.00000000 0.74021813 0.00000000 0.00000000 -0.67236681</pose>
+                        <pose>1.99772784 0.58834247 0.00000000 0.74021812 0.00000000 0.00000000 -0.67236681</pose>
                         <tool_type>1</tool_type>
                         <chem_on>0</chem_on>
                         <water_on>0</water_on>
@@ -623,7 +623,7 @@
                     </start_state>
                 </node_child>
                 <node_child node_name="Fix 16_23_50" tag="" node_active="1" node_type="1" name="Fix 16_23_50" description="" error_code="0" type="1">
-                    <subtask pingPongCount="1">
+                    <subtask>
                         <trajectory onlyKeyPoints="1">
                             <points>
                                 <p>
