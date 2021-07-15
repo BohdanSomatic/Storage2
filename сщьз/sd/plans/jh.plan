@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<timestamp>1626362847</timestamp>
+<timestamp>1626362878</timestamp>
 <plan>
     <map name="sdfsfsdfds" />
     <robot_start_state>
@@ -15,7 +15,7 @@
         </start_state>
     </robot_start_state>
     <root node_name="root" tag="" node_active="1" node_type="0" collapsed="1">
-        <node_child node_name="DUPAdasdas" tag="" node_active="1" node_type="1" name="DUPAdasdas" description="" error_code="0" type="3">
+        <node_child node_name="KAPUSTA" tag="" node_active="1" node_type="1" name="KAPUSTA" description="" error_code="0" type="3">
             <subtask>
                 <tool>4</tool>
             </subtask>
