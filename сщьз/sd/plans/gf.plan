@@ -1,8 +1,14 @@
 <?xml version="1.0"?>
+<<<<<<< HEAD
 <timestamp>1626372728</timestamp>
 <plan>
     <map name="" />
     <robot_start_state>
+=======
+<<<<<<< HEAD
+
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
         <start_state>
             <arm>0 0.261799 -3.14159 2.61799 0 1.309 0 </arm>
             <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
