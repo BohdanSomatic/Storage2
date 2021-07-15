@@ -1,11 +1,7 @@
 <?xml version="1.0"?>
-<timestamp>1626365258</timestamp>
+<timestamp>1626365352</timestamp>
 <plan>
-<<<<<<< HEAD
-    <map name="DUPA" />
-=======
-    <map name="huinja" />
->>>>>>> FETCH_HEAD
+    <map name="" />
     <robot_start_state>
         <start_state>
             <arm>0 0.261799 -3.14159 2.61799 0 1.309 0 </arm>
