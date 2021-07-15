@@ -4,9 +4,27 @@
     <map name="sdfsfsdfds" />
     <robot_start_state>
         <start_state>
+<<<<<<< HEAD
             <arm>-6.28319 0.418879 -3.14159 2.61799 0 1.309 0 </arm>
             <pose>-0.50000000 0.60000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
             <tool_type>0</tool_type>
+=======
+            <arm>0 0.261799 -3.14159 2.61799 0 1.309 0 </arm>
+fsdfsdfsfsdfsdfsdd
+            sdf
+            fsd
+            sfd
+            sdf
+            sdf
+            sdf
+            sdf
+            sdf
+            sdf
+            dfs
+            dfs
+            sdfsdf
+            sfd<tool_type>0</tool_type>
+>>>>>>> FETCH_HEAD
             <chem_on>0</chem_on>
             <water_on>0</water_on>
             <blower_on>0</blower_on>
