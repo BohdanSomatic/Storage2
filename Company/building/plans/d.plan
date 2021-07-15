@@ -1,11 +1,7 @@
 <?xml version="1.0"?>
-<timestamp>1626374109</timestamp>
+<timestamp>1626374741</timestamp>
 <plan>
-<<<<<<< HEAD
-    <map name="dgfdrdgfgfd" />
-=======
-    <map name="adfdafa" />
->>>>>>> FETCH_HEAD
+    <map name="" />
     <robot_start_state>
         <start_state>
             <arm>0 0.261799 -3.14159 2.61799 0 1.309 0 </arm>
