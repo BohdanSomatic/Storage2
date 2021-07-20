@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<timestamp>1626781042</timestamp>
+<timestamp>1626781179</timestamp>
 <plan>
-    <map name="DASDASDASDAQ" />
+    <map name="test" />
     <robot_start_state>
         <start_state>
             <arm>0 0.261799 -3.14159 2.61799 0 1.309 0 </arm>
@@ -25,6 +25,58 @@
                 <arm>0 0.261799 -3.14159 2.61799 0 1.309 0 </arm>
                 <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
                 <tool_type>0</tool_type>
+                <chem_on>0</chem_on>
+                <water_on>0</water_on>
+                <blower_on>0</blower_on>
+                <vacuum_on>0</vacuum_on>
+                <cartesian>0</cartesian>
+            </start_state>
+        </node_child>
+        <node_child node_name="tc_sprayer" tag="" node_active="1" node_type="1" name="tc_sprayer" description="" error_code="0" type="3">
+            <subtask>
+                <tool>2</tool>
+            </subtask>
+            <valid>0</valid>
+            <time>0.00000000</time>
+            <start_state>
+                <arm>0 0.261799 -3.14159 2.61799 0 1.309 0 </arm>
+                <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                <tool_type>1</tool_type>
+                <chem_on>0</chem_on>
+                <water_on>0</water_on>
+                <blower_on>0</blower_on>
+                <vacuum_on>0</vacuum_on>
+                <cartesian>0</cartesian>
+            </start_state>
+        </node_child>
+        <node_child node_name="GHDGHGDFH" tag="" node_active="1" node_type="1" name="GHDGHGDFH" description="" error_code="0" type="1">
+            <subtask>
+                <trajectory onlyKeyPoints="1">
+                    <points />
+                </trajectory>
+                <waypoints>
+                    <waypoints>
+                        <waypoint>
+                            <t>0.00000000</t>
+                            <cartesian>0</cartesian>
+                            <arm>0 0.261799 -3.14159 2.61799 0 1.309 0 </arm>
+                            <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                            <tool_type>2</tool_type>
+                            <chem_on>0</chem_on>
+                            <water_on>0</water_on>
+                            <blower_on>0</blower_on>
+                            <vacuum_on>0</vacuum_on>
+                            <cartesian>0</cartesian>
+                        </waypoint>
+                    </waypoints>
+                </waypoints>
+            </subtask>
+            <valid>0</valid>
+            <time>0.00000000</time>
+            <start_state>
+                <arm>0 0.261799 -3.14159 2.61799 0 1.309 0 </arm>
+                <pose>0.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000 0.00000000</pose>
+                <tool_type>2</tool_type>
                 <chem_on>0</chem_on>
                 <water_on>0</water_on>
                 <blower_on>0</blower_on>
